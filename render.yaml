@@ -8,6 +8,7 @@ services:
     buildCommand: npm ci && npm run build
     startCommand: npm start
     healthCheckPath: /
+    pullRequestPreviewsEnabled: true
     envVars:
       - key: NODE_ENV
         value: production
