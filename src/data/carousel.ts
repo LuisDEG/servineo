@@ -1,0 +1,42 @@
+export const carouselImages = [
+  {
+    id: '1',
+    src: '/images/carousel/inspiration-1.jpg',
+    alt: 'Reparación de plomería profesional',
+    title: 'Servicios de Plomería',
+    description: 'Reparaciones y mantenimiento de fontanería con garantía',
+    link: '/services/plumbing',
+  },
+  {
+    id: '2',
+    src: '/images/carousel/inspiration-2.jpg',
+    alt: 'Instalaciones eléctricas seguras',
+    title: 'Electricidad Profesional',
+    description: 'Instalaciones eléctricas certificadas y seguras',
+    link: '/services/electrical',
+  },
+  {
+    id: '3',
+    src: '/images/carousel/inspiration-3.jpg',
+    alt: 'Carpintería de calidad',
+    title: 'Carpintería Artesanal',
+    description: 'Trabajos en madera con acabados profesionales',
+    link: '/services/carpentry',
+  },
+  {
+    id: '4',
+    src: '/images/carousel/inspiration-4.jpg',
+    alt: 'Pintura de interiores y exteriores',
+    title: 'Pintura Profesional',
+    description: 'Transforma tu hogar con nuestros servicios de pintura',
+    link: '/services/painting',
+  },
+  {
+    id: '5',
+    src: '/images/carousel/inspiration-5.jpg',
+    alt: 'Limpieza profunda del hogar',
+    title: 'Limpieza Profesional',
+    description: 'Servicios de limpieza para hogares y oficinas',
+    link: '/services/cleaning',
+  },
+];

@@ -1,0 +1,103 @@
+import { Service, ServiceCategory } from '@/types/service.types';
+
+export const serviceCategories: ServiceCategory[] = [
+  {
+    id: 'plumbing',
+    name: 'Plomería',
+    description: 'Servicios de fontanería y reparación de tuberías',
+    icon: '🔧',
+    color: '#3B82F6',
+  },
+  {
+    id: 'electrical',
+    name: 'Electricidad',
+    description: 'Instalaciones y reparaciones eléctricas',
+    icon: '⚡',
+    color: '#F59E0B',
+  },
+  {
+    id: 'carpentry',
+    name: 'Carpintería',
+    description: 'Trabajos en madera y muebles',
+    icon: '🔨',
+    color: '#8B4513',
+  },
+  {
+    id: 'painting',
+    name: 'Pintura',
+    description: 'Pintura de interiores y exteriores',
+    icon: '🎨',
+    color: '#EC4899',
+  },
+  {
+    id: 'cleaning',
+    name: 'Limpieza',
+    description: 'Servicios de limpieza doméstica y comercial',
+    icon: '🧹',
+    color: '#10B981',
+  },
+  {
+    id: 'gardening',
+    name: 'Jardinería',
+    description: 'Mantenimiento de jardines y espacios verdes',
+    icon: '🌱',
+    color: '#059669',
+  },
+];
+
+export const services: Service[] = [
+  {
+    id: '1',
+    name: 'Reparación de grifos',
+    description: 'Reparación y mantenimiento de grifos y llaves de paso',
+    category: serviceCategories[0],
+    isActive: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '2',
+    name: 'Instalación eléctrica',
+    description: 'Instalación de sistemas eléctricos residenciales',
+    category: serviceCategories[1],
+    isActive: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '3',
+    name: 'Carpintería básica',
+    description: 'Reparación y construcción de muebles de madera',
+    category: serviceCategories[2],
+    isActive: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '4',
+    name: 'Pintura de interiores',
+    description: 'Pintura de paredes y techos en interiores',
+    category: serviceCategories[3],
+    isActive: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '5',
+    name: 'Limpieza profunda',
+    description: 'Servicio de limpieza profunda del hogar',
+    category: serviceCategories[4],
+    isActive: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: '6',
+    name: 'Mantenimiento de jardín',
+    description: 'Cuidado y mantenimiento de jardines',
+    category: serviceCategories[5],
+    isActive: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+];
